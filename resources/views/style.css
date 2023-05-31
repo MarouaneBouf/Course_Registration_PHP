@@ -1,0 +1,131 @@
+/* FONT USED ON THE WHOLE PAGE*/
+@import url("https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+/* Actual CSS */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e6e7eb;
+  font-family: "Schibsted Grotesk", sans-serif;
+}
+
+#container {
+  display: flex;
+  margin-top: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: center;
+  width: 800px;
+  height: 600px;
+  overflow: hidden;
+  border-radius: 0.7rem;
+}
+
+#left-section {
+  width: 500px;
+  height: 700px;
+}
+
+#right-section {
+  background-color: rgb(255, 255, 255);
+  width: 400px;
+  height: 700px;
+  padding-left: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  margin-bottom: 0.3rem;
+}
+
+#inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 240px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.input {
+  background-color: transparent;
+  border: none;
+  width: 240px;
+  margin: 0.3rem;
+  padding: 0.6rem;
+}
+
+.input:focus {
+  outline: none;
+}
+
+#btns {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  margin-bottom: 1.4rem;
+  justify-content: center;
+  text-align: center;
+}
+
+#new_acc,
+#google {
+  text-align: center;
+  border-radius: 0.4rem;
+  width: 240px;
+  height: 32px;
+  border: 1.5px solid rgb(68, 68, 68);
+  background-color: transparent;
+}
+
+#new_acc {
+  background-color: black;
+  border: none;
+  color: white;
+}
+
+#new_acc:hover {
+  cursor: pointer;
+  background-color: rgb(40, 40, 40);
+  border: none;
+}
+
+#google:hover {
+  cursor: pointer;
+}
+
+#google_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
+  color: rgb(93, 93, 93);
+}
+
+input:focus {
+  border: none;
+}
+
+#span_log {
+  text-decoration: underline;
+  font-weight: 700;
+  color: rgb(24, 24, 24);
+  cursor: pointer;
+}
+
+#last_question {
+  display: inline;
+  box-sizing: content-box;
+  font-size: 13px;
+  color: rgb(134, 134, 134);
+  width: 200px;
+  margin-left: 1rem;
+}
